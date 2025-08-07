@@ -24,6 +24,7 @@ jobs:
 
     - name: Copy main HTML to public directory
       run: |
+        mkdir -p public
         cp agenticAI.html public/index.html
         
     - name: Deploy to Firebase Hosting
