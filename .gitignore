@@ -62,8 +62,11 @@ node_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
+# CRITICAL: Environment files with secrets - DO NOT COMMIT
 .env
+.env.local
+.env.production
+.env.*.local
 
 # dataconnect generated files
 .dataconnect
